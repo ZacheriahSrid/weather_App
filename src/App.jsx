@@ -60,11 +60,11 @@ WeatherDetails.propTypes = {
 
 function App() {
   const api_key = "9de6ec0bf4bf4238cd9ad0937906a6e1";
-  const [text, setText] = useState("Chennai");
+  const [text, setText] = useState("Search");
   const [icon, setIcon] = useState(sunIcon);
   const [temp, setTemp] = useState(0);
-  const [city, setCity] = useState("Chennai");
-  const [country, setCountry] = useState("IN");
+  const [city, setCity] = useState("Search Your City");
+  const [country, setCountry] = useState("Country");
   const [lat, setLat] = useState(0);
   const [lon, setLon] = useState(0);
   const [humidity, setHumidity] = useState(0);
