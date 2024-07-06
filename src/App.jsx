@@ -5,12 +5,13 @@ import './App.css';
 import cloudIcon from "./assets/clearclo.jpg";
 import sunIcon from "./assets/cloudyyy.png";
 import drizzleIcon from "./assets/drizle.jpg";
-import humidityIcon from "./assets/humdity.png";
-import searchIcon from "./assets/Search.png";
+import humidityIcon from "./assets/humidityicon.jpg";
+import searchIcon from "./assets/searchicon.png.png";
 import snowIcon from "./assets/winter.png.png";
-import windIcon from "./assets/wind.png";
+import windIcon from "./assets/windy.png.png";
 import rainIcon from "./assets/rainyyy.png.jpg";
 import clearIcon from "./assets/clear.png";
+import homeIcon from "./assets/home.jpg"
 
 const WeatherDetails = ({ icon, temp, city, country, lat, lon, humidity, wind }) => {
   return (
@@ -61,7 +62,7 @@ WeatherDetails.propTypes = {
 function App() {
   const api_key = "9de6ec0bf4bf4238cd9ad0937906a6e1";
   const [text, setText] = useState("");
-  const [icon, setIcon] = useState(sunIcon);
+  const [icon, setIcon] = useState(homeIcon);
   const [temp, setTemp] = useState(0);
   const [city, setCity] = useState("City");
   const [country, setCountry] = useState("Country");
