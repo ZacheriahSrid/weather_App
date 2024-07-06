@@ -9,7 +9,7 @@ import humidityIcon from "./assets/humdity.png";
 import searchIcon from "./assets/Search.png";
 import snowIcon from "./assets/winter.png.png";
 import windIcon from "./assets/wind.png";
-import rainIcon from "./assets/rainyyy.png";
+import rainIcon from "./assets/rainyyy.png.png";
 import clearIcon from "./assets/clear.png";
 
 const WeatherDetails = ({ icon, temp, city, country, lat, lon, humidity, wind }) => {
