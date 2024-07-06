@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import './App.css';
 import cloudIcon from "./assets/clearclo.jpg";
 import sunIcon from "./assets/cloudyyy.png";
-import drizzleIcon from "./assets/drizle.png";
+import drizzleIcon from "./assets/drizle.jpg";
 import humidityIcon from "./assets/humdity.png";
 import searchIcon from "./assets/Search.png";
 import snowIcon from "./assets/winter.png";
@@ -60,7 +60,7 @@ WeatherDetails.propTypes = {
 
 function App() {
   const api_key = "9de6ec0bf4bf4238cd9ad0937906a6e1";
-  const [text, setText] = useState("Search");
+  const [text, setText] = useState("");
   const [icon, setIcon] = useState(sunIcon);
   const [temp, setTemp] = useState(0);
   const [city, setCity] = useState("City");
