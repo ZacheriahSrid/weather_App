@@ -63,7 +63,7 @@ function App() {
   const [text, setText] = useState("Search");
   const [icon, setIcon] = useState(sunIcon);
   const [temp, setTemp] = useState(0);
-  const [city, setCity] = useState("Search Your City");
+  const [city, setCity] = useState("City");
   const [country, setCountry] = useState("Country");
   const [lat, setLat] = useState(0);
   const [lon, setLon] = useState(0);
