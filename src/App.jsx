@@ -2,14 +2,14 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import './App.css';
-import cloudIcon from "./assets/clear.png";
-import sunIcon from "./assets/cloud.png";
-import drizzleIcon from "./assets/drizlly.png";
+import cloudIcon from "./assets/clearclo.jpg";
+import sunIcon from "./assets/cloudyyy.png";
+import drizzleIcon from "./assets/drizle.png";
 import humidityIcon from "./assets/humdity.png";
 import searchIcon from "./assets/Search.png";
-import snowIcon from "./assets/Snow.png";
+import snowIcon from "./assets/winter.png";
 import windIcon from "./assets/wind.png";
-import rainIcon from "./assets/rain.webp";
+import rainIcon from "./assets/rainyyy.png";
 import clearIcon from "./assets/clear.png";
 
 const WeatherDetails = ({ icon, temp, city, country, lat, lon, humidity, wind }) => {
